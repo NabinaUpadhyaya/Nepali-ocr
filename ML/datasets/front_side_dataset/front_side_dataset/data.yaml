@@ -1,0 +1,14 @@
+path: E:\Sajilo E-bank\front_side_dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Printed_logo', 'Silver_patch', 'Stamped_logo', 'citizenship title', 'frontside']
+
+roboflow:
+  workspace: backside-citizenship
+  project: frontdataset-h7jol
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/backside-citizenship/frontdataset-h7jol/dataset/3
